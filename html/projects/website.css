@@ -1,0 +1,119 @@
+/* colors im using
+color:#FF00FF fuschia
+color:#1E90FF blue
+color:#FFD700 yellow
+color:#00FA9A green
+color:#8A2BE2 purple
+lime
+red
+black
+white
+
+*/
+
+body {
+  border: 20px solid #1E90FF;
+  background: linear-gradient(110deg, white 40%, lime 40%);
+	font-family: 'Bungee', cursive;
+	font-weight: bolder;
+
+}
+
+h1 {
+  padding-left: 2%;
+  font-family: 'Bungee', cursive;
+  font-size:70pt;
+}
+
+ a {
+  float:left;
+  display:block;
+  color:black;
+  text-align:center;
+  text-decoration:none;
+  padding:14px;
+  padding-left:24px;
+  padding-right: 24px;
+  font-size:1vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+
+a:hover{
+  -webkit-text-stroke:0.3px black;
+  
+}
+
+
+.important {
+	padding-top: 2%;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+.content {
+  padding-top: 2%;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-text-stroke:0.3px black;
+}
+
+.top {
+  padding-bottom: 5%;
+}
+
+
+.photo_grid {
+  display: grid;
+  grid-template-columns:repeat(12,1fr);
+ 
+  padding: 1em;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+
+.photo_one {
+  grid-column-start: 1;
+  grid-column-end:7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+
+.photo_two {
+  grid-column-start: 7;
+  grid-column-end:13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+
+.photo_three {
+  grid-column-start: 7;
+  grid-column-end:13;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+
+.photo_four {
+  grid-column-start: 3;
+  grid-column-end:11;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.photo_grid > div {
+
+}
+
+.photo_grid > div > img {
+  width: 100%;
+  object-fit: cover;
+  border:2px solid black;
+
+}

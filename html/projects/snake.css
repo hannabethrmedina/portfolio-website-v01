@@ -1,0 +1,171 @@
+body {
+  border: 20px solid red;
+  background: linear-gradient(140deg, white 60%, lime 60%);
+	font-family: 'Bungee', cursive;
+	font-weight: bolder;
+
+
+}
+
+h1 {
+  padding-left: 2%;
+  font-family: 'Bungee', cursive;
+  font-size:5vw;
+}
+
+ .back a {
+  float:left;
+  display:block;
+  color:black;
+  text-align:center;
+  text-decoration:none;
+  padding:14px;
+  padding-left:24px;
+  padding-right: 24px;
+  font-size:1vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+
+.back a:hover{
+  -webkit-text-stroke:0.3px black;
+  
+}
+.back {
+  position: relative;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+}
+
+.content {
+	padding-top:1%;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+  font-size: 1.25vw;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 2%;
+  font-weight: bolder;
+  -webkit-text-stroke:0.5px black;
+  
+}
+.important {
+  padding-top:1%;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 1.25vw;
+}
+
+
+
+.full {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+	height: 40%;
+}
+
+.full2 {
+	padding-top: 10%;
+	padding-bottom: 10%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+	height: 50%;
+}
+
+
+.textgrid {
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	grid-template-rows: 400px;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.top {
+  height:100%;
+}
+
+.text{
+  padding-bottom: 10%;
+  text-align: center;
+  color: white;
+}
+
+.middleone {
+  height:100%;
+  background: linear-gradient(110deg, #FF00FF 60%, #1E90FF 60%);
+}
+
+.middletwo {
+  height:100%;
+ }
+
+
+
+
+
+.grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(8rem, 1fr));
+  grid-auto-rows: 1fr;
+  grid-gap:1.5rem;
+  padding-top: 1em;
+  padding-left: 3em;
+}
+
+.grid::before {
+  content: '';
+  width: 0;
+  padding-bottom: 100%;
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+
+}
+
+.grid > *:first-child {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+
+
+/* New stuff to mess with */
+
+.grid > div {
+}
+
+
+.grid > div > img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+
+}
+
+.bottom {
+  text-align: center;
+  color: black;
+  font-size: 1.5vw;
+  font-family: 'Bungee', cursive;
+  padding-bottom: 5%;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: #FF00FF;
+
+
+}
+
+.bottom a:hover{
+  -webkit-text-stroke:0.3px #FF00FF;
+  
+}

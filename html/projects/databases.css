@@ -1,0 +1,137 @@
+/*
+font-family: 'Bungee', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'Fruktur', cursive;
+font-family: 'Monoton', cursive;
+*/
+
+body {
+	border: 20px solid #1E90FF;
+	background: linear-gradient(110deg, white 60%, red 60%);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+
+}
+
+h1 {
+	text-align: left;
+	padding-left: 1em;
+	padding-right: 1.5em;
+	font-family: 'Bungee', cursive;
+	color:black;
+}
+
+h2 {
+	text-align: left;
+	padding-left: 1em;
+	padding-right: 1.5em;
+	padding-bottom: 2%;
+	
+}
+
+.sc {
+	padding-left: 1.5em;
+	padding-bottom: 1vw;
+}
+
+
+ a {
+  float:left;
+  display:block;
+  color:black;
+  text-align:center;
+  text-decoration:none;
+  padding:14px;
+  padding-left:24px;
+  padding-right: 24px;
+  font-size:1vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+
+a:hover{
+  -webkit-text-stroke:0.3px black;
+  
+}
+
+p {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+
+.back {
+  position: relative;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+}
+
+.full1 {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0%);
+	width:80%;
+	margin-top: 5vw;
+}
+
+.full2 {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0%);
+	width:50%;
+	margin-top: 5vw;
+
+		
+
+}
+
+.full3 {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 80%;
+	height:auto;
+	transform: translate(-50%,-50%);
+	box-shadow: 15px 15px 1px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 580px;
+}
+
+.left {
+	
+	height: 100%;
+
+}
+
+.bottom {
+	/*background: linear-gradient(110deg, red 60%, #FFD700 60%);*/
+	height:100%;
+}
+
+.subtitle {
+	text-align: center;
+	font-family: 'Bungee', cursive;
+	padding-bottom: 5vw;
+	padding-top: 2vw;
+}
+
+.important {
+	font-family: 'Bungee', cursive;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+.content {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	-webkit-text-stroke:0.3px;
+}

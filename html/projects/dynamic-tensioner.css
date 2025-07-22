@@ -1,0 +1,116 @@
+/*
+font-family: 'Bungee', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'Fruktur', cursive;
+font-family: 'Monoton', cursive;
+*/
+
+body {
+	border: 20px solid lime;
+	background: linear-gradient(90deg, white 50%, black 50%);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+
+}
+
+html, body {
+	height: 100%;
+	margin: 0%;
+}
+
+.title {
+	text-align: left;
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
+	padding-bottom: 1.5vw;
+	font-family: 'Bungee', cursive;
+	color:black;
+	font-size: 2.5vw;
+}
+
+.company {
+	text-align: left;
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
+	font-size: 1.75vw;
+	padding-top: 1.5vw;
+	padding-bottom: 3vw;
+	
+}
+
+ a {
+  float:left;
+  display:block;
+  color:black;
+  text-align:center;
+  text-decoration:none;
+  padding:14px;
+  padding-left:24px;
+  padding-right: 24px;
+  font-size:1vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+
+a:hover{
+  -webkit-text-stroke:0.3px black;
+  
+}
+
+.important {
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
+	font-size: 1.25vw;
+	font-family: 'Bungee', cursive;
+
+}
+
+.content {
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
+	 font-size: 1.25vw;
+  -webkit-text-stroke:0.3px black;
+}
+
+.back {
+  position: relative;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+}
+
+.full {
+	position: relative;
+	top:50%;
+	width: 80%;
+	height:auto;
+	transform: translate(0%,-50%);
+	box-shadow: 15px 15px 1px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 100%;
+	
+}
+
+.left {
+	background-color: white;
+	height: 100%;
+}
+
+.right {
+	background: linear-gradient(110deg, #FF00FF 60%, #1E90FF 60%);
+	height: 100%;
+	text-align: center;
+}
+
+.left > div {
+
+
+}

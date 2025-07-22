@@ -1,0 +1,190 @@
+/*font-family: 'Bungee Inline', cursive;*/
+
+
+body {
+	background-color:black;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Bungee', cursive;
+	color:white;
+}
+
+img {
+	max-width: 100%;
+	height:auto;
+}
+
+h1 {
+	font-size: 4em;
+}
+.topnav {
+	overflow: hidden;
+	/*background-image: linear-gradient(to right, red , yellow);*/
+}
+a{
+	text-decoration: none;
+	color: #FF00FF;
+	font-size: 1.75vw;
+
+
+a:hover {
+	font-size: 2vw;
+}
+
+
+.topnav a {
+	float:left;
+	display:block;
+	color:black;
+	text-align:center;
+	text-decoration:none;
+	padding:1.2vw;
+	padding-left:2vw;
+	padding-right: 2vw;
+	font-size:1.25vw;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+
+
+}
+
+.topnav a:hover{
+	-webkit-text-stroke:0.3px black;
+	
+}
+
+
+.biocontent {
+	position: relative;
+	left:50%;
+	width: 45%;
+	margin-bottom: 5%;
+
+}
+
+.biotitle {
+	font-size: 3.5vw;
+	-webkit-text-stroke:1px #FF00FF;
+	color: black;
+
+}
+
+.biotext {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 1.25vw;
+}
+
+.top {
+	height:100%;
+	background-image: url('../images/hannapics/6.jpg');
+	background-repeat: no-repeat;
+	background-size: 43% 100%;
+}
+
+.ut {
+	margin: auto;
+    padding: 20px;
+    width: 80%;
+    height: 100px;
+}
+
+.utimg {
+	float:left;
+}
+
+
+.utcontent {
+	padding-left: 50px;
+	float:left;
+}
+
+.innervycs {
+	margin: auto;
+    padding: 20px;
+    width: 80%;
+    height: 100px;
+}
+
+.inimg {
+	float:left;
+}
+
+.incontent {
+	padding-left: 50px;
+	float:left;
+}
+
+.starbucks {
+	margin: auto;
+    padding: 20px;
+    width: 80%;
+    height: 100px;
+}
+
+.sbimg {
+	float:left;
+}
+
+.sbcontent {
+	float:left;
+	padding-left: 50px;
+}
+
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 2s;
+}
+
+
+.bottom {
+	color: black;
+	background-color: lime;
+	height: 100%;
+	padding-left: 10%;
+	padding-right:10%;
+
+
+}
+
+.grid > div {
+  border: 2px solid black;
+  background-color: white;
+}
+
+.gotoprojects {
+	text-align: center;
+	background-color: lime;
+	padding: 3rem;
+	color: black;
+}
+}
+
+.grid {
+	display: relative;
+	top:10%;
+}
+
+
+.bottomgrid {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	background-color: lime;
+	color: black;
+	text-align: center;
+
+}
+
+.bottomgrid > div {
+	padding: 5vw;
+	font-size: 1.3vw;
+
+}
+
+.bottomgrid > div > img {
+	transform: translate(0%,25%) rotate(90deg);
+	width:18%;
+
+}
+

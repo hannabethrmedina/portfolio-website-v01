@@ -1,0 +1,276 @@
+/* font to choose from 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Libre Franklin', serif;
+font-family: 'Monoton', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Prata', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Noto Serif JP', serif;
+*/
+
+/* colors im using
+color:#FF00FF fuschia
+color:#1E90FF blue
+color:#FFD700 yellow
+color:#00FA9A green
+color:#8A2BE2 purple
+lime
+red
+black
+white
+
+*/
+
+
+/* Want each image to grayscale and become transparent
+	words to the link will appear over it 
+	filter: grayscale(100%);
+	opacity: 0.5; */
+
+
+body {
+	background-color:white;
+	font-family: 'Montserrat', sans-serif;
+	color:black;
+}
+
+img {
+	max-width:100%;
+	height:auto;
+	z-index:-1;
+
+}
+
+.topnav {
+	overflow: hidden;
+}
+
+.topnav a {
+	float:left;
+	display:block;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	padding:16px;
+	padding-left:30px;
+	font-size:12px;
+	font-family: 'Libre Baskerville', serif;
+
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+  	background-color:black;
+
+}
+
+.topnav a:hover {
+	color:white;
+	background-color:black;
+}
+
+.contactlink {
+	float:right;
+	padding-right:50px;
+}
+
+.mainhanna {
+	display:grid;
+	grid-template-columns:repeat(6,1fr);
+	grid-column-gap:2em;
+  grid-template-rows: auto;
+  height: 100%;
+
+}
+
+div.mainhanna {
+	margin:auto;
+	width:90%;
+	padding:10px;
+}
+
+.mainhanna > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 3s;
+}
+
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 3s;
+}
+
+.firsthanna {
+	position: relative;
+	top:14%;
+}
+
+.secondhanna {
+	position: relative;
+	top:5%;
+}
+
+.thirdhanna {
+	position: relative;
+	top:12%;
+}
+
+.fourthhanna {
+  position: relative;
+}
+
+.fifthhanna {
+	position: relative;
+	top:16%;
+}
+
+.firsthanna .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#FFD700;
+}
+
+.secondhanna .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#FF00FF;
+  
+}
+
+.thirdhanna .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#1E90FF;
+}
+
+.fourthhanna .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#00FA9A;
+}
+
+.fifthhanna .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#8A2BE2;
+  
+  
+}
+
+.text {
+  color: white;
+  font-size: 5vw;
+  position: relative;
+  top: 60%;
+  transform: translate(-50%, -70%);
+  -ms-transform: translate(-50%, -70%);
+  transform: rotate(270deg);
+font-family: 'Bungee', cursive;
+}
+
+.firsthanna:hover .overlay {
+	opacity: 0.5;
+}
+
+.secondhanna:hover .overlay {
+	opacity: 0.5;
+}
+
+.thirdhanna:hover .overlay {
+	opacity: 0.5;
+}
+
+.fourthhanna:hover .overlay {
+	opacity: 0.5;
+}
+
+.fifthhanna:hover .overlay {
+	opacity: 0.5;
+}
+
+/* would like to make the panel rise slightly if hovering over it 
+and scale the font */
+
+
+.big {
+	position: relative;
+	top:40%;
+	left:10%;
+  font-size:5vw; 
+  font-family: 'Bungee', cursive;
+  -webkit-text-stroke:2px black;
+  color:white;
+}
+
+.small {
+  position: absolute;
+  left:10%;
+  bottom: 0;
+  font-size: 2vw;
+  -webkit-text-stroke:0.5px black;
+
+}
+
+.namehanna {
+  position: relative;
+}
+
+  /*
+	font-family: 'Bungee Shade', cursive;
+	font-size:4em;
+  -webkit-text-stroke:2px black;
+  color:red;
+  */
+  /*font-family: Cormorant Garamond;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+}*/
+}
+
+
+
+
